@@ -8,7 +8,8 @@ import { ApolloProvider } from '@apollo/react-hooks';
 
 const client = new ApolloClient({
   request: (operation) => {
-    const token = localStorage.getItem("id-token");
+    const token = localStorage.getItem("id_token");
+    console.log('Token!!! in client !', token)
 
     operation.setContext({
       headers: {
