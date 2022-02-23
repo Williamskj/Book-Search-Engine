@@ -11,9 +11,9 @@
 This is a Google API-based Book Search Engine that is a full stack application, that has a fluently communicating front and back end, with GraphQl connected to Mongo Atlas.
 
 ## UserStory
-AS AN avid reader
-I WANT to search for new books to read
-SO THAT I can keep a list of books to purchase
+As an avid reader
+I want to search for new books to read
+so that I can keep a list of books to purchase
 
 ## License
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
